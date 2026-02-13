@@ -1,0 +1,279 @@
+{
+    "info": {
+        "_postman_id": "shop-products-seed",
+        "name": "Shop Products (Seed 10 items)",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "1. Laptop Pro",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Laptop Pro\",\n    \"price\": 25000,\n    \"description\": \"High performance laptop for professionals\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:3001/products",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "products"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "2. Smartphone X",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Smartphone X\",\n    \"price\": 15900,\n    \"description\": \"Latest model with 5G support\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:3001/products",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "products"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "3. Wireless Mouse",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Wireless Mouse\",\n    \"price\": 550,\n    \"description\": \"Ergonomic design, long battery life\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:3001/products",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "products"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "4. Mechanical Keyboard",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Mechanical Keyboard\",\n    \"price\": 2500,\n    \"description\": \"RGB Backlight, Blue switches\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:3001/products",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "products"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "5. Gaming Monitor",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Gaming Monitor 144Hz\",\n    \"price\": 8500,\n    \"description\": \"24 inch, IPS Panel\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:3001/products",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "products"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "6. Headphones",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Noise Cancelling Headphones\",\n    \"price\": 4500,\n    \"description\": \"Wireless over-ear headphones\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:3001/products",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "products"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "7. Webcam",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"HD Webcam\",\n    \"price\": 1200,\n    \"description\": \"1080p resolution with microphone\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:3001/products",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "products"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "8. Smart Watch",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Smart Watch Series 5\",\n    \"price\": 3500,\n    \"description\": \"Fitness tracker and notifications\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:3001/products",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "products"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "9. Tablet",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"Tablet Air\",\n    \"price\": 12500,\n    \"description\": \"Lightweight and powerful\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:3001/products",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "products"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "10. External SSD",
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"External SSD 1TB\",\n    \"price\": 3200,\n    \"description\": \"High speed data transfer\"\n}"
+                },
+                "url": {
+                    "raw": "http://localhost:3001/products",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3001",
+                    "path": [
+                        "products"
+                    ]
+                }
+            }
+        }
+    ]
+}
